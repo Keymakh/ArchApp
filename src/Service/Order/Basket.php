@@ -139,7 +139,6 @@ class Basket
         $communication->process($user, 'checkout_template');
     }
 
-
     /**
      * Фабричный метод для репозитория Product
      * @return ProductRepository
